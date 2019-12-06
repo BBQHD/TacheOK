@@ -15,4 +15,4 @@ RUN mkdir /app
 WORKDIR /app
 
 #clone git
-RUN git clone https://github.com/BBQHD/TacheOK.git 
+RUN git clone https://github.com/BBQHD/TacheTest.git 
