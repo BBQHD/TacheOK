@@ -23,4 +23,4 @@ RUN mkdir /app
 WORKDIR /app
 
 #clone git
-RUN git clone https://github.com/BBQHD/Tache.git .
+RUN git clone https://github.com/LouisDaCosta/Tache.git .
