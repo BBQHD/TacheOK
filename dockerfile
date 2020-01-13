@@ -23,7 +23,7 @@ RUN mkdir /app
 WORKDIR /app
 
 #clone git
-RUN git clone https://github.com/LouisDaCosta/Worker.git git
+RUN git clone https://github.com/LouisDaCosta/TacheWorker.git git
 
 #Repertoire
 WORKDIR ./git
