@@ -25,4 +25,5 @@ WORKDIR /app
 #clone git
 RUN git clone https://github.com/LouisDaCosta/Tache.git git
 
-CMD cd git
+#Repertoire courant
+WORKDIR /git
