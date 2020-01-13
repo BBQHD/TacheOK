@@ -5,7 +5,7 @@ CMD echo http://dl-1.alpinelinux.org/alpine/v3.2/main >> /etc/apk/repositories
 CMD echo http://dl-2.alpinelinux.org/alpine/v3.2/main >> /etc/apk/repositories
 CMD echo http://dl-3.alpinelinux.org/alpine/v3.2/main >> /etc/apk/repositories
 CMD echohttp://dl-4.alpinelinux.org/alpine/v3.2/main >> /etc/apk/repositories
-CMD echohttp://dl-5.alpinelinux.org/alpine/v3.2/main>> /etc/apk/repositories
+CMD echo http://dl-5.alpinelinux.org/alpine/v3.2/main>> /etc/apk/repositories
 
 RUN apk update
 
@@ -23,4 +23,6 @@ RUN mkdir /app
 WORKDIR /app
 
 #clone git
-RUN git clone https://github.com/LouisDaCosta/Tache.git .
+RUN git clone https://github.com/LouisDaCosta/Tache.git git
+
+CMD cd git
